@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="./comparison.js"></script>
+    <meta charset="UTF-8" />
+    <title>Website Compare</title>
+  </head>
+  <body>
+    <h1>Website Compare</h1>
+    <form>
+    <p>one</p><input id="inputOne"></input>
+  </br>
+  </br>
+    <p>two</p><input id="inputTwo"></input>
+    <button onclick="removeJunk(document.getElementById('inputOne').value, document.getElementById('inputTwo').value)">submit</button>
+</form> 
+<div>
+  <h2>Result</h2>
+  <h3 id='result'></h3>
+</div>
+  </body>
+</html>
